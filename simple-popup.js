@@ -176,9 +176,23 @@
   // Expose as a jQuery plugin.
   if ($ && $.fn) {
     $.fn.popup = function(opts) {
+      var popups = [];
       this.each(function(i, el) {
-        new Popup(el, opts);
+        popups.push(new Popup(el, opts));
       });
+
+      return {
+        open: function() {
+          $.each(popups, function(i, popup) {
+            popup.open();
+          });
+        },
+        close: function() {
+          $.each(popups, function(i, popup) {
+            popup.close();
+          });
+        }
+      };
     };
   } else if (global) {
     // Expose it as a method on global object.
