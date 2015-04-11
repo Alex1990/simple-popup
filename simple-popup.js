@@ -1,6 +1,6 @@
 /*!
  * simple-popup.js
- * https//github.com/Alex1990/simple-popup
+ * https://github.com/Alex1990/simple-popup
  * Under the MIT License | (c) 2015 Alex Chao
  */
 
