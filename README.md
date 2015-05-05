@@ -7,7 +7,7 @@ A jQuery(optional) plugin to show a popup.
 
 As a jQuery plugin:
 
-```
+```js
 var popup = $('#popup').popup();
 
 // Open all popups.
@@ -24,7 +24,7 @@ $('#popup').popup({
 
 As a native plugin:
 
-```
+```js
 var popup = new Popup(document.getElementById('popup'), { width: 400, height: 300 });
 
 // Open this popup.
