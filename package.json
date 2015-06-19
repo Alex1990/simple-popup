@@ -1,7 +1,8 @@
 {
   "name": "simple-popup",
+  "version": "0.1.1",
   "description": "A jQuery(optional) plugin to show a centered popup",
-  "version": "0.1.0",
+  "main": "simple-popup.js",
   "author": {
     "name": "Alex Chao",
     "email": "alexchao1990@gmail.com"
